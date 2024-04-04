@@ -8,6 +8,7 @@ function Main(){
         <div className="main">
             Main
             component
+            <div></div>
         </div>
     )
 }
