@@ -6,7 +6,14 @@ import "./Footer.css";
 function Footer(){
     return(
         <div className="footer">
-            FOOTER
+           
+            <div>
+                About Us:
+                
+            </div> 
+            <p className="footer__dev">
+                Developed by Anton Dutchak
+            </p>           
         </div>
     )
 }

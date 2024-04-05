@@ -1,0 +1,8 @@
+.calendar__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 880px;
+    height: 500px;
+    margin: 0 auto;
+}

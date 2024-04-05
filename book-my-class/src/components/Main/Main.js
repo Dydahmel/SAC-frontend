@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import MyCalendar from "../Calendar/Calendar";
 
 
 
@@ -8,7 +9,14 @@ function Main(){
         <div className="main">
             Main
             component
-            <div></div>
+            <button type="text" className="main__book-btn">
+                Book-A-Class
+            </button>
+            <div>
+                <MyCalendar>
+
+                </MyCalendar>
+            </div>
         </div>
     )
 }
